@@ -1,0 +1,36 @@
+{
+  "name": "ts-jest-puppeteer",
+  "version": "0.0.1",
+  "main": "index.js",
+  "license": "MIT",
+  "keywords": [
+    "ts",
+    "jest",
+    "puppeteer",
+    "typescript"
+  ],
+  "devDependencies": {
+    "@ts-mono/base": "rwu823/ts-mono#pkg/ts-base",
+    "@types/puppeteer-core": "2.0.0",
+    "puppeteer-core": "2.1.1"
+  },
+  "scripts": {
+    "build": "rm -rf out && mkdir out && cp -r package.json jest-preset.js src out"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.{ts,tsx,js}": [
+      "eslint --fix"
+    ]
+  },
+  "dependencies": {
+    "@types/expect-puppeteer": "4.4.0",
+    "expect-puppeteer": "4.4.0",
+    "jest-environment-node": "25.1.0",
+    "ts-jest": "25.2.0"
+  }
+}

@@ -1,8 +1,9 @@
 {
   "name": "ts-jest-puppeteer",
-  "version": "0.0.3",
+  "description": "Run your tests using Jest & Puppeteer with TypeScript.",
+  "version": "0.0.4",
   "repository": "git@github.com:rwu823/ts-jest-puppeteer.git",
-  "author": "Rocky Wu <rocky@17.media>",
+  "author": "Rocky Wu <rocky823@google.com>",
   "main": "index.js",
   "license": "MIT",
   "keywords": [

@@ -44,3 +44,19 @@ module.export = {
 ~~~sh
 $ PUPPETEER_LAUNCH_CONFIG=puppeteer-launch.js jest
 ~~~
+
+## Example
+
+~~~js
+// google.spec.ts
+
+describe('Google', () => {
+  beforeAll(async () => {
+    await page.goto('https://google.com')
+  })
+
+  it('should display "google" text on page', async () => {
+    await expect(page).toMatch('google')
+  })
+})
+~~~

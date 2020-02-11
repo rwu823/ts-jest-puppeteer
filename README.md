@@ -36,6 +36,7 @@ You can custom your puppeteer [launch option](https://pptr.dev/#?product=Puppete
 
 ~~~js
 // puppeteer-launch.js
+
 module.export = {
   // launch options
 }

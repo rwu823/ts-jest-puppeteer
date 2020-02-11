@@ -1,6 +1,8 @@
 {
   "name": "ts-jest-puppeteer",
   "version": "0.0.1",
+  "repository": "git@github.com:rwu823/ts-jest-puppeteer.git",
+  "author": "Rocky Wu <rocky@17.media>",
   "main": "index.js",
   "license": "MIT",
   "keywords": [
@@ -15,7 +17,7 @@
     "puppeteer-core": "2.1.1"
   },
   "scripts": {
-    "build": "rm -rf out && mkdir out && cp -r package.json jest-preset.js src out"
+    "build": "rm -rf out && mkdir out && cp -r README.md package.json jest-preset.js src out"
   },
   "husky": {
     "hooks": {

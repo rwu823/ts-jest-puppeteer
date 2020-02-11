@@ -30,7 +30,7 @@ module.exports = {
 
 
 ## Launch Options
-You can custom your puppeteer [launch option](https://pptr.dev/#?product=Puppeteer&version=v2.0.0&show=api-puppeteerlaunchoptions) thro `PUPPETEER_LAUNCH_CONFIG` env.
+You can custom your puppeteer [launch option](https://pptr.dev/#?product=Puppeteer&version=v2.0.0&show=api-puppeteerlaunchoptions) thro `PUPPETEER_LAUNCH_CONFIG` env. The default value is `puppeteer-launch.js`
 
 
 ~~~js
